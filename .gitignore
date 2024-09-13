@@ -1,2 +1,3 @@
 gen_bf_message.py
 .venv/
+.mypy*
