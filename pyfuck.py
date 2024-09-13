@@ -142,6 +142,10 @@ def brainfuck_interpreter(file, debug, interval):
     global debug_level
     debug_level = debug
 
+    if debug_level > 2:
+        print("Doin' "*debug_level + "your mom")
+        exit(1)
+
     with open(file, 'r') as f:
         code = f.read().strip()
 
